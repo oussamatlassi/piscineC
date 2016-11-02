@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
-
 int	ft_atoi(char *str)
 {
 	int i;
@@ -10,7 +7,7 @@ int	ft_atoi(char *str)
 	i = 0;
 	result = 0;
 	neg = 1;
-	while (str [i] == ' ' || str[i] == 't' || str[i] == 'n' || str[i] == 'r' || str[i] == 'v' || str[i] == 'f')
+	while (str [i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\r' || str[i] == '\v' || str[i] == '\f')
 	{
 		i++;
 	}	
